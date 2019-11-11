@@ -1,11 +1,15 @@
-# Sample Snack app
+## Flashy Cards project - Andrea Righi - Matr. n. 15483
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+#### I sent slightly late the Github address, I hope that this is not a problem for you.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+I wasn't able to finish the whole project, mainly because I was not more able to change the state of the class; therefore I list my bugs here:
 
-Projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+- the Deck class `does not show the update` which is done on its state, therefore the shuffle and restart functions do not work, even if the sorting algorithm works (*in console*) but does not update the graphics;
+- the delete card button works, but again it `does not show any change in the graphics`: it is possible to see that the update is made by *exiting and entering again* in the deck display;
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+
+I was late in finishing the project because I first made an app version which included also the navigation props. I upload it here as well, but it was `severely bugged`: when a deck was modified (by deleting or adding some cards), I was not more able to modify anything in there. This is the reason why I tried to change approach, but time was not enough.
+
+
+
